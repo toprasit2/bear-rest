@@ -13,7 +13,7 @@ router.route('/bears')
     .get(function(req, res) {
         res.send(bears);
     })
-    .post(function(req, res) { 
+    .post(function(req, res) {  
         var bear = {}; 
         bear.name = req.body.name; 
         bears.push(bear); 
